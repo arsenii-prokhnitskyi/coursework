@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1270" height="805" viewBox="0 0 1270 805" role="img"><title>Навчальна ілюстрація аналітики проєкту</title><rect width="100%" height="100%" fill="#fff"/>
+<rect x="0" y="65" width="1270" height="740" rx="3" fill="#f6f7fb" stroke="#e9edf5"/>
+<path d="M0 65H1270" fill="none" stroke="#e9edf5"/>
+<rect x="0" y="65" width="65" height="740" rx="3" fill="#fff" stroke="#e9edf5"/>
+<text x="25" y="40" fill="#303a4f" font-size="20" font-family="Arial,sans-serif" font-weight="400">☰</text>
+<text x="565" y="40" fill="#303a4f" font-size="16" font-family="Arial,sans-serif" font-weight="400">Проєкт «Запуск сайту»</text>
+<text x="1060" y="40" fill="#7c8495" font-size="13" font-family="Arial,sans-serif" font-weight="400">Навчальний приклад</text>
+<rect x="25" y="145" width="15" height="15" rx="3" fill="#eef2ff" stroke="#bfcbea"/>
+<rect x="25" y="213" width="15" height="15" rx="3" fill="#eef2ff" stroke="#bfcbea"/>
+<rect x="25" y="281" width="15" height="15" rx="3" fill="#eef2ff" stroke="#bfcbea"/>
+<rect x="25" y="349" width="15" height="15" rx="3" fill="#eef2ff" stroke="#bfcbea"/>
+<rect x="135" y="132" width="250" height="325" rx="3" fill="#fff" stroke="#e9edf5"/>
+<text x="163" y="174" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">ВИКОНАННЯ ПЛАНУ</text>
+<text x="163" y="245" fill="#303a4f" font-size="48" font-family="Arial,sans-serif" font-weight="600">67 %</text>
+<text x="163" y="278" fill="#7c8495" font-size="15" font-family="Arial,sans-serif" font-weight="400">16 із 24 завдань завершено</text>
+<text x="163" y="321" fill="#4b7dff" font-size="15" font-family="Arial,sans-serif" font-weight="400">3 етапи · 7 учасників</text>
+<rect x="163" y="352" width="190" height="38" rx="20" fill="#4b7dff" stroke="#4b7dff"/>
+<text x="184" y="377" fill="#fff" font-size="14" font-family="Arial,sans-serif" font-weight="400">Огляд прогресу</text>
+<path d="M135 408H385" fill="none" stroke="#e9edf5"/>
+<text x="163" y="436" fill="#7c8495" font-size="14" font-family="Arial,sans-serif" font-weight="400">8 завдань у роботі</text>
+<rect x="409" y="132" width="792" height="325" rx="3" fill="#fff" stroke="#e9edf5"/>
+<path d="M954 132L954 457" fill="none" stroke="#e9edf5"/>
+<text x="445" y="172" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">ЗАВДАННЯ ЗА ТИЖНЯМИ</text>
+<path d="M445 212H910" fill="none" stroke="#e9edf5"/>
+<text x="919" y="217" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">24</text>
+<path d="M445 272H910" fill="none" stroke="#e9edf5"/>
+<text x="919" y="277" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">16</text>
+<path d="M445 332H910" fill="none" stroke="#e9edf5"/>
+<text x="919" y="337" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">8</text>
+<path d="M445 392H910" fill="none" stroke="#e9edf5"/>
+<text x="919" y="397" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">0</text>
+<path d="M445 392L535 362L625 332L715 302L805 242L910 212V392Z" fill="#eef3ff"/><path d="M445 392L535 362L625 347L715 302L805 317L910 272" fill="none" stroke="#4b7dff" stroke-width="3"/>
+<text x="445" y="421" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">1 тиж.</text>
+<text x="560" y="421" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">2 тиж.</text>
+<text x="675" y="421" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">3 тиж.</text>
+<text x="790" y="421" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">4 тиж.</text>
+<text x="985" y="174" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">РИЗИКИ</text>
+<circle cx="1077" cy="240" r="38" fill="#fff5cf"/>
+<text x="1065" y="252" fill="#e0b200" font-size="32" font-family="Arial,sans-serif" font-weight="400">2</text>
+<text x="991" y="310" fill="#303a4f" font-size="16" font-family="Arial,sans-serif" font-weight="400">Потребують уваги</text>
+<text x="986" y="342" fill="#7c8495" font-size="13" font-family="Arial,sans-serif" font-weight="400">Строки та залежності</text>
+<path d="M954 372H1201" fill="none" stroke="#e9edf5"/>
+<text x="985" y="405" fill="#303a4f" font-size="15" font-family="Arial,sans-serif" font-weight="400">Бюджет: 23 685 ₴</text>
+<text x="985" y="432" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">Приклад планових витрат</text>
+<rect x="135" y="483" width="250" height="253" rx="3" fill="#fff" stroke="#e9edf5"/>
+<text x="163" y="524" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">СТАН ЗАВДАНЬ</text>
+<circle cx="260" cy="606" r="53" fill="none" stroke="#e9edf5" stroke-width="15"/><circle cx="260" cy="606" r="53" fill="none" stroke="#4b7dff" stroke-width="15" stroke-dasharray="223 333" transform="rotate(-90 260 606)"/>
+<text x="238" y="614" fill="#303a4f" font-size="29" font-family="Arial,sans-serif" font-weight="400">16</text>
+<text x="163" y="706" fill="#7c8495" font-size="14" font-family="Arial,sans-serif" font-weight="400">Завершені / у роботі</text>
+<rect x="409" y="483" width="792" height="253" rx="3" fill="#fff" stroke="#e9edf5"/>
+<text x="445" y="524" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">ЗАВАНТАЖЕННЯ КОМАНДИ</text>
+<text x="445" y="573" fill="#303a4f" font-size="15" font-family="Arial,sans-serif" font-weight="400">Планування</text>
+<rect x="600" y="557" width="420" height="14" rx="7" fill="#eef1f7" stroke="#eef1f7"/>
+<rect x="600" y="557" width="360" height="14" rx="7" fill="#4b7dff" stroke="#4b7dff"/>
+<text x="445" y="627" fill="#303a4f" font-size="15" font-family="Arial,sans-serif" font-weight="400">Розробка</text>
+<rect x="600" y="611" width="420" height="14" rx="7" fill="#eef1f7" stroke="#eef1f7"/>
+<rect x="600" y="611" width="290" height="14" rx="7" fill="#22c697" stroke="#22c697"/>
+<text x="445" y="681" fill="#303a4f" font-size="15" font-family="Arial,sans-serif" font-weight="400">Перевірка</text>
+<rect x="600" y="665" width="420" height="14" rx="7" fill="#eef1f7" stroke="#eef1f7"/>
+<rect x="600" y="665" width="190" height="14" rx="7" fill="#f2c72a" stroke="#f2c72a"/>
+<text x="1065" y="587" fill="#303a4f" font-size="38" font-family="Arial,sans-serif" font-weight="400">7</text>
+<text x="1065" y="621" fill="#7c8495" font-size="14" font-family="Arial,sans-serif" font-weight="400">учасників</text>
+<text x="1049" y="700" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">Умовні дані</text>
+</svg>

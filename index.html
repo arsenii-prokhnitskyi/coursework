@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UnApp — аналітика та планування проєктів</title>
+    <meta name="description" content="Плануй завдання, контролюй строки, бюджет і завантаження команди з UnApp. Ознайомся з можливостями сервісу та прикладами проєктної аналітики.">
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer>
+    </script>
+  </head>
+  <body class="page-home">
+    <a class="skip-link" href="#main">Перейти до основного вмісту</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="./index.html" aria-label="UnApp — головна">UnApp</a>
+        <button class="menu-toggle" aria-label="Відкрити меню" aria-expanded="false" aria-controls="main-nav" type="button">
+          <span>
+          </span>
+          <span>
+          </span>
+          <span>
+          </span>
+        </button>
+        <nav class="nav-links" id="main-nav" aria-label="Головна навігація">
+          <a href="./index.html" data-page="home">Головна</a>
+          <a href="./index.html#works">Можливості</a>
+          <a href="./services.html" data-page="services">Послуги</a>
+          <a href="./blog.html" data-page="blog">Блог</a>
+          <a href="./services.html#about">Про нас</a>
+          <a href="./index.html#pricing">Тарифи</a>
+          <a href="./index.html#contact">Контакти</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="home-hero" aria-labelledby="home-title">
+        <div class="container hero-center">
+          <h1 id="home-title">Плануй проєкти та керуй результатом</h1>
+          <p>Завдання, строки й аналітика в одному просторі</p>
+          <button class="green-button" type="button" data-modal-open>Обговорити проєкт</button>
+        </div>
+      </section>
+      <section class="dashboard-section" id="works" aria-label="Ілюстрація аналітики проєкту">
+        <div class="dashboard-visual">
+          <img src="./assets/images/project-dashboard.svg" width="1270" height="805" alt="Навчальний приклад: прогрес завдань, бюджет, ризики та навантаження команди">
+        </div>
+        <div class="slider-dots" aria-hidden="true">
+          <i class="active">
+          </i>
+          <i>
+          </i>
+          <i>
+          </i>
+        </div>
+      </section>
+      <section class="features-band" aria-label="Можливості сервісу">
+        <div class="container feature-cols">
+          <article>
+            <span class="feature-icon feature-icon--plan" aria-hidden="true">
+            </span>
+            <h2>Планування завдань</h2>
+            <p>Розділяй проєкт на етапи, визначай пріоритети й відповідальних. Узгоджений план допомагає команді рухатися до спільної мети.</p>
+          </article>
+          <article>
+            <span class="feature-icon feature-icon--load" aria-hidden="true">
+            </span>
+            <h2>Ресурси команди</h2>
+            <p>Порівнюй обсяг роботи з доступністю учасників. Помічай перевантаження завчасно та розподіляй завдання рівномірніше.</p>
+          </article>
+          <article>
+            <span class="feature-icon feature-icon--report" aria-hidden="true">
+            </span>
+            <h2>Аналітика проєкту</h2>
+            <p>Зіставляй план і факт, контролюй бюджет і строки. Зрозумілі показники допомагають бачити відхилення та обирати наступні кроки.</p>
+          </article>
+        </div>
+      </section>
+      <section class="collab-intro" id="about">
+        <div class="container narrow">
+          <h2>
+            Працюй із командою
+            <br class="desktop-break">
+            за спільним планом
+          </h2>
+          <p>Об’єднуй завдання, відповідальних і строки навколо мети проєкту. Спільна картина роботи допомагає узгоджувати пріоритети, обговорювати перешкоди та вчасно коригувати план.</p>
+          <button class="play-circle" type="button" data-modal-open aria-label="Обговорити командну роботу">
+            <span aria-hidden="true">i</span>
+          </button>
+        </div>
+      </section>
+      <section class="showcase" aria-label="Планування та аналітика">
+        <div class="container showcase-rows">
+          <div class="showcase-row ">
+            <div class="showcase-visual">
+              <img src="./assets/images/project-plan.svg" width="458" height="730" alt="Ілюстрація плану проєкту з етапами, строками й відповідальними" loading="lazy">
+            </div>
+            <div class="showcase-copy">
+              <h2>Плануй роботу поетапно</h2>
+              <div class="bullets">
+                <div class="showcase-point">
+                  <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <use href="./assets/images/home-icons.svg#bulb">
+                    </use>
+                  </svg>
+                  <p>Починай з мети й очікуваного результату. Розбий роботу на зрозумілі етапи та визнач, які завдання залежать одне від одного.</p>
+                </div>
+                <div class="showcase-point">
+                  <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <use href="./assets/images/home-icons.svg#compass">
+                    </use>
+                  </svg>
+                  <p>Для кожного завдання признач відповідального й строк. Враховуй доступність учасників, щоб план був реалістичним.</p>
+                </div>
+                <div class="showcase-point">
+                  <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <use href="./assets/images/home-icons.svg#flask">
+                    </use>
+                  </svg>
+                  <p>Регулярно переглядай прогрес. Якщо виникає перешкода, узгодь нові пріоритети та повідом команду про зміни.</p>
+                </div>
+              </div>
+              <a href="./services.html" class="green-button green-button--link">Можливості сервісу</a>
+            </div>
+          </div>
+          <div class="showcase-row showcase-row--reverse">
+            <div class="showcase-visual">
+              <img src="./assets/images/project-analytics.svg" width="458" height="730" alt="Ілюстрація аналітики: виконання плану, строки й ризики проєкту" loading="lazy">
+            </div>
+            <div class="showcase-copy">
+              <h2>Аналізуй результати</h2>
+              <div class="bullets">
+                <div class="showcase-point">
+                  <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <use href="./assets/images/home-icons.svg#bulb">
+                    </use>
+                  </svg>
+                  <p>Порівнюй заплановану та завершену роботу. Відстежуй зміни показників за період, щоб розуміти темп виконання.</p>
+                </div>
+                <div class="showcase-point">
+                  <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <use href="./assets/images/home-icons.svg#compass">
+                    </use>
+                  </svg>
+                  <p>Звертай увагу на прострочені завдання й ризики. Ранній сигнал дає час переглянути обсяг роботи або додати ресурси.</p>
+                </div>
+                <div class="showcase-point">
+                  <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <use href="./assets/images/home-icons.svg#flask">
+                    </use>
+                  </svg>
+                  <p>Підсумовуй результати етапу коротким звітом. Фіксуй висновки, які допоможуть точніше спланувати наступний цикл.</p>
+                </div>
+              </div>
+              <a href="./services.html" class="green-button green-button--link">Можливості сервісу</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blue-separator" aria-label="Показники навчального прикладу">
+        <div class="container stats-grid">
+          <div>
+            <p class="stat-number">3</p>
+            <p>Етапи у прикладі проєкту</p>
+          </div>
+          <div>
+            <p class="stat-number">24</p>
+            <p>Завдання у демонстраційному плані</p>
+          </div>
+          <div>
+            <p class="stat-number">7</p>
+            <p>Учасників навчальної команди</p>
+          </div>
+        </div>
+      </section>
+      <section class="news-section" id="news">
+        <div class="container">
+          <div class="section-title">
+            <h2>Поради для проєктів</h2>
+            <p>Короткі матеріали про планування, корисні показники й командну роботу. Практичні орієнтири, які допомагають краще організувати наступний етап.</p>
+          </div>
+          <div class="news-grid">
+            <article class="news-card" id="article-1">
+              <h3>Як скласти реалістичний план проєкту</h3>
+              <time datetime="2026-11-01">1 листопада 2026</time>
+              <p>Почни з мети, розбий роботу на етапи та визнач залежності. Додавай резерв часу для завдань, у яких найбільше невідомого.</p>
+              <div class="author">
+                <img src="./assets/images/author-1.webp" width="30" height="30" alt="Портрет автора матеріалу" loading="lazy">
+                Редакція UnApp
+              </div>
+            </article>
+            <article class="news-card" id="article-2">
+              <h3>Які показники варто бачити на панелі</h3>
+              <time datetime="2026-11-01">1 листопада 2026</time>
+              <p>Порівнюй план і факт, стеж за простроченими завданнями та залишком бюджету. Обирай показники, що допомагають ухвалювати рішення.</p>
+              <div class="author">
+                <img src="./assets/images/author-2.webp" width="30" height="30" alt="Портрет автора матеріалу" loading="lazy">
+                Редакція UnApp
+              </div>
+            </article>
+            <article class="news-card" id="article-3">
+              <h3>Як розподілити навантаження команди</h3>
+              <time datetime="2026-11-01">1 листопада 2026</time>
+              <p>Оцінюй доступний час учасників перед призначенням роботи. Перевантаження однієї людини може затримати весь етап.</p>
+              <div class="author">
+                <img src="./assets/images/author-3.webp" width="30" height="30" alt="Портрет автора матеріалу" loading="lazy">
+                Редакція UnApp
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe-band" id="contact">
+        <div class="container">
+          <h2>Плануй упевнено, аналізуй регулярно</h2>
+          <p>Залиш адресу для демонстраційної перевірки форми підписки.</p>
+          <form class="subscribe-form" id="subscribe-form" novalidate>
+            <label for="subscribe-email" class="visually-hidden">Електронна пошта</label>
+            <input id="subscribe-email" type="email" name="email" placeholder="Твоя електронна пошта" maxlength="120" autocomplete="email" required>
+            <button class="green-button" type="submit">Перевірити</button>
+          </form>
+          <p id="subscribe-status" class="subscribe-status" role="status" aria-live="polite">Навчальна форма. Листи не надсилаються.</p>
+        </div>
+      </section>
+      <section class="pricing-section" id="pricing">
+        <div class="container">
+          <div class="section-title">
+            <h2>Тарифні плани</h2>
+            <p>Приклад пакетів для різних масштабів роботи. Ціни й ліміти наведено для навчальної моделі сервісу; оплата на сайті не проводиться.</p>
+          </div>
+          <div class="pricing-grid">
+            <article class="price-plan">
+              <h3>Starter</h3>
+              <div class="plan-price">
+                <sup>
+                  $
+                </sup>
+                9
+              </div>
+              <div class="plan-per">
+                на місяць
+              </div>
+              <p>До 3 проєктів і 5 учасників. Планування завдань, строки та базовий огляд прогресу для невеликої команди.</p>
+              <button type="button" class="green-button" data-modal-open>Обговорити</button>
+            </article>
+            <article class="price-plan">
+              <h3>Basic</h3>
+              <div class="plan-price">
+                <sup>
+                  $
+                </sup>
+                27
+              </div>
+              <div class="plan-per">
+                на місяць
+              </div>
+              <p>До 10 проєктів і 15 учасників. Порівняння плану й факту та огляд завантаження команди.</p>
+              <button type="button" class="green-button" data-modal-open>Обговорити</button>
+            </article>
+            <article class="price-plan">
+              <h3>Pro</h3>
+              <div class="plan-price">
+                <sup>
+                  $
+                </sup>
+                74
+              </div>
+              <div class="plan-per">
+                на місяць
+              </div>
+              <p>До 30 проєктів і 50 учасників. Контроль бюджету, аналіз ризиків і розширені звіти за період.</p>
+              <button type="button" class="green-button" data-modal-open>Обговорити</button>
+            </article>
+            <article class="price-plan">
+              <h3>Unlimited</h3>
+              <div class="plan-price">
+                <sup>
+                  $
+                </sup>
+                140
+              </div>
+              <div class="plan-per">
+                на місяць
+              </div>
+              <p>Без ліміту проєктів у навчальній моделі. Зведений огляд портфеля, команд і ключових показників.</p>
+              <button type="button" class="green-button" data-modal-open>Обговорити</button>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-cols">
+        <section>
+          <h2>Про UnApp</h2>
+          <p>UnApp — навчальний сайт сервісу аналітики та планування проєктів. Єдиний підхід до завдань, строків, бюджету й командної роботи.</p>
+          <div class="socials">
+            <span aria-hidden="true">
+              <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <use href="./assets/images/home-icons.svg#twitter">
+                </use>
+              </svg>
+            </span>
+            <span aria-hidden="true">
+              <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <use href="./assets/images/home-icons.svg#facebook">
+                </use>
+              </svg>
+            </span>
+            <span aria-hidden="true">
+              <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <use href="./assets/images/home-icons.svg#linkedin">
+                </use>
+              </svg>
+            </span>
+            <span aria-hidden="true">
+              <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <use href="./assets/images/home-icons.svg#dribbble">
+                </use>
+              </svg>
+            </span>
+          </div>
+        </section>
+        <nav aria-label="Навігація в підвалі">
+          <h2>Інформація</h2>
+          <a href="./index.html">
+            <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <use href="./assets/images/home-icons.svg#check">
+              </use>
+            </svg>
+            Головна
+          </a>
+          <a href="./index.html#works">
+            <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <use href="./assets/images/home-icons.svg#check">
+              </use>
+            </svg>
+            Можливості
+          </a>
+          <a href="./services.html#about">
+            <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <use href="./assets/images/home-icons.svg#check">
+              </use>
+            </svg>
+            Про сервіс
+          </a>
+          <a href="./blog.html">
+            <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <use href="./assets/images/home-icons.svg#check">
+              </use>
+            </svg>
+            Блог
+          </a>
+          <a href="./index.html#contact">
+            <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <use href="./assets/images/home-icons.svg#check">
+              </use>
+            </svg>
+            Контакти
+          </a>
+          <button type="button" class="footer-privacy" data-privacy-open>
+            <svg class="home-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <use href="./assets/images/home-icons.svg#check">
+              </use>
+            </svg>
+            Приватність
+          </button>
+        </nav>
+        <section>
+          <h2>Останні матеріали</h2>
+          <a class="footer-article" href="./blog.html#article-1">
+            <img src="./assets/images/blog-tablet.webp" width="70" height="60" alt="Ілюстрація матеріалу про планування проєктів" loading="lazy">
+            <span>
+              Як скласти реалістичний план проєкту
+              <time datetime="2026-11-01">1 листопада 2026</time>
+            </span>
+          </a>
+          <a class="footer-article" href="./blog.html#article-2">
+            <img src="./assets/images/blog-camera.webp" width="70" height="60" alt="Ілюстрація матеріалу про планування проєктів" loading="lazy">
+            <span>
+              Які показники варто бачити на панелі
+              <time datetime="2026-11-01">1 листопада 2026</time>
+            </span>
+          </a>
+          <a class="footer-article" href="./blog.html#article-3">
+            <img src="./assets/images/blog-studio.webp" width="70" height="60" alt="Ілюстрація матеріалу про планування проєктів" loading="lazy">
+            <span>
+              Як розподілити навантаження команди
+              <time datetime="2026-11-01">1 листопада 2026</time>
+            </span>
+          </a>
+        </section>
+        <section>
+          <h2>Зворотний зв’язок</h2>
+          <p>Маєш питання про планування чи аналітику? Опиши потреби своєї команди у формі.</p>
+          <button type="button" class="footer-contact" data-modal-open>Обговорити проєкт</button>
+          <p>Навчальний прототип. Поки що заявки не надсилаються.</p>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        Навчальний проєкт UnApp ©2026.
+      </div>
+    </footer>
+    <dialog class="privacy-dialog" id="privacy-dialog" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">Приватність</h2>
+      <p>Це навчальний сайт. Введені дані перевіряються лише у браузері, не надсилаються та не зберігаються. Зовнішні шрифти завантажуються з Google Fonts.</p>
+      <form method="dialog">
+        <button class="green-button">Зрозуміло</button>
+      </form>
+    </dialog>
+    <div class="modal" id="request-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description" hidden>
+      <div class="modal-panel">
+        <button class="modal-close" type="button" data-modal-close aria-label="Закрити вікно">×</button>
+        <h2 id="modal-title">Обговорити проєкт</h2>
+        <p id="modal-description">Розкажи про потреби своєї команди. Це демонстраційна форма: дані перевіряються локально, без надсилання та збереження.</p>
+        <form id="request-form" novalidate>
+          <label for="request-name">Твоє ім’я</label>
+          <input id="request-name" name="name" type="text" minlength="2" maxlength="70" autocomplete="name" required>
+          <label for="request-email">Електронна пошта</label>
+          <input id="request-email" name="email" type="email" maxlength="120" autocomplete="email" required>
+          <label for="request-message">Потреби команди</label>
+          <textarea id="request-message" name="message" minlength="10" maxlength="1000" rows="4" required>
+          </textarea>
+          <button class="green-button" type="submit">Перевірити заявку</button>
+          <p id="form-status" role="status" aria-live="polite" class="form-status">
+          </p>
+        </form>
+      </div>
+    </div>
+    <button class="back-top" type="button" aria-label="Повернутися вгору" hidden>↑</button>
+  </body>
+</html>

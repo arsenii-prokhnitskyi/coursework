@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="458" height="730" viewBox="0 0 458 730" role="img"><title>Навчальна ілюстрація плану проєкту</title><rect width="100%" height="100%" fill="#fff"/>
+<text x="32" y="48" fill="#4b7dff" font-size="16" font-family="Arial,sans-serif" font-weight="600">UNAPP</text>
+<text x="255" y="48" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">Навчальний приклад</text>
+<path d="M0 76H458" fill="none" stroke="#e9edf5"/>
+<text x="32" y="133" fill="#303a4f" font-size="32" font-family="Arial,sans-serif" font-weight="400">Запуск сайту</text>
+<text x="32" y="170" fill="#929aae" font-size="16" font-family="Arial,sans-serif" font-weight="400">План на листопад · 24 завдання</text>
+<rect x="32" y="208" width="394" height="104" rx="3" fill="#fff" stroke="#e9edf5"/>
+<text x="51" y="243" fill="#303a4f" font-size="22" font-family="Arial,sans-serif" font-weight="400">Дослідження</text>
+<text x="51" y="273" fill="#929aae" font-size="14" font-family="Arial,sans-serif" font-weight="400">До 4 листопада</text>
+<text x="300" y="273" fill="#4b7dff" font-size="14" font-family="Arial,sans-serif" font-weight="400">6 завдань</text>
+<rect x="32" y="332" width="394" height="104" rx="3" fill="#fff" stroke="#e9edf5"/>
+<text x="51" y="367" fill="#303a4f" font-size="22" font-family="Arial,sans-serif" font-weight="400">Розробка</text>
+<text x="51" y="397" fill="#929aae" font-size="14" font-family="Arial,sans-serif" font-weight="400">До 11 листопада</text>
+<text x="300" y="397" fill="#4b7dff" font-size="14" font-family="Arial,sans-serif" font-weight="400">12 завдань</text>
+<rect x="32" y="456" width="394" height="104" rx="3" fill="#fff" stroke="#e9edf5"/>
+<text x="51" y="491" fill="#303a4f" font-size="22" font-family="Arial,sans-serif" font-weight="400">Перевірка</text>
+<text x="51" y="521" fill="#929aae" font-size="14" font-family="Arial,sans-serif" font-weight="400">До 18 листопада</text>
+<text x="300" y="521" fill="#4b7dff" font-size="14" font-family="Arial,sans-serif" font-weight="400">6 завдань</text>
+<text x="32" y="636" fill="#303a4f" font-size="17" font-family="Arial,sans-serif" font-weight="400">Відповідальні: 7 учасників</text>
+<rect x="32" y="668" width="394" height="40" rx="5" fill="#3341ed" stroke="#3341ed"/>
+<text x="140" y="694" fill="#fff" font-size="16" font-family="Arial,sans-serif" font-weight="400">Спільний план</text>
+</svg>

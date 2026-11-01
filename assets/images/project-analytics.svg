@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="458" height="730" viewBox="0 0 458 730" role="img"><title>Навчальна ілюстрація аналітики виконання</title><rect width="100%" height="100%" fill="#fff"/>
+<text x="32" y="48" fill="#4b7dff" font-size="16" font-family="Arial,sans-serif" font-weight="600">UNAPP</text>
+<text x="255" y="48" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">Навчальний приклад</text>
+<path d="M0 76H458" fill="none" stroke="#e9edf5"/>
+<text x="32" y="130" fill="#303a4f" font-size="29" font-family="Arial,sans-serif" font-weight="400">Прогрес проєкту</text>
+<text x="32" y="209" fill="#5c6575" font-size="66" font-family="Arial,sans-serif" font-weight="300">67 %</text>
+<text x="32" y="252" fill="#929aae" font-size="18" font-family="Arial,sans-serif" font-weight="400">16 із 24 завдань завершено</text>
+<path d="M32 315H426" fill="none" stroke="#e9edf5"/>
+<path d="M32 375H426" fill="none" stroke="#e9edf5"/>
+<path d="M32 435H426" fill="none" stroke="#e9edf5"/>
+<path d="M32 495H426" fill="none" stroke="#e9edf5"/>
+<path d="M32 495L105 457L181 420L257 395L333 344L426 315V495Z" fill="#caeaff"/><path d="M32 495L105 457L181 420L257 395L333 344L426 315" fill="none" stroke="#55b9ed" stroke-width="3"/>
+<text x="32" y="534" fill="#929aae" font-size="13" font-family="Arial,sans-serif" font-weight="400">Тиждень 1</text>
+<text x="334" y="534" fill="#929aae" font-size="13" font-family="Arial,sans-serif" font-weight="400">Тиждень 4</text>
+<text x="32" y="600" fill="#303a4f" font-size="20" font-family="Arial,sans-serif" font-weight="400">2 ризики потребують уваги</text>
+<text x="32" y="640" fill="#929aae" font-size="16" font-family="Arial,sans-serif" font-weight="400">Контролюй строки та залежності</text>
+<text x="32" y="690" fill="#929aae" font-size="12" font-family="Arial,sans-serif" font-weight="400">Демонстраційні показники за чотири тижні</text>
+</svg>
