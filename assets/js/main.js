@@ -8,9 +8,21 @@ const menuToggle = document.querySelector(".menu-toggle");
 const topButton = document.querySelector(".back-top");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 let focusBeforeModal = null;
+let activeRequest = null;
+const requestButton = requestForm?.querySelector('button[type="submit"]');
+
+function setRequestPending(pending) {
+  if (!requestButton) return;
+  requestButton.disabled = pending;
+  requestButton.textContent = pending ? "Перевіряємо…" : "Перевірити заявку";
+  requestForm.setAttribute("aria-busy", String(pending));
+}
 
 function closeModal() {
   if (!modal || modal.hidden) return;
+  activeRequest?.abort();
+  activeRequest = null;
+  setRequestPending(false);
   modal.hidden = true;
   document.body.classList.remove("modal-open");
   requestForm?.reset();
@@ -77,13 +89,55 @@ function validateForm(form) {
 document.querySelectorAll("input, textarea").forEach(field => {
   field.addEventListener("input", () => field.setCustomValidity(""));
 });
-requestForm?.addEventListener("submit", event => {
+requestForm?.addEventListener("submit", async event => {
   event.preventDefault();
+  if (activeRequest) return;
   if (!validateForm(requestForm)) {
     if (formStatus) formStatus.textContent = "Перевір заповнення полів. Дані не надсилалися.";
     return;
   }
-  if (formStatus) formStatus.textContent = "Заявку перевірено. Це навчальна демонстрація: дані не надсилалися та не зберігалися.";
+  const controller = new AbortController();
+  activeRequest = controller;
+  setRequestPending(true);
+  if (formStatus) formStatus.textContent = "Перевіряємо заявку…";
+  const timeout = setTimeout(() => controller.abort(), 15000);
+  try {
+    const response = await fetch(new URL("api/requests", document.baseURI), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(Object.fromEntries(new FormData(requestForm))),
+      signal: controller.signal
+    });
+    const result = await response.json();
+    // A closed or reopened dialog must not receive a late response.
+    if (activeRequest !== controller) return;
+    if (response.status === 422 && result.errors) {
+      let firstInvalid = null;
+      Object.entries(result.errors).forEach(([name, message]) => {
+        const field = requestForm.elements.namedItem(name);
+        if (!(field instanceof HTMLInputElement || field instanceof HTMLTextAreaElement)) return;
+        field.setCustomValidity(String(message));
+        if (!firstInvalid) firstInvalid = field;
+      });
+      firstInvalid?.focus();
+      firstInvalid?.reportValidity();
+      if (formStatus) formStatus.textContent = "Перевір заповнення полів.";
+    } else if (!response.ok || result.ok !== true) {
+      throw new Error("Request was not accepted");
+    } else if (formStatus) {
+      formStatus.textContent = result.message;
+    }
+  } catch (error) {
+    if (activeRequest === controller && formStatus) {
+      formStatus.textContent = "Не вдалося перевірити заявку. Спробуй пізніше.";
+    }
+  } finally {
+    clearTimeout(timeout);
+    if (activeRequest === controller) {
+      activeRequest = null;
+      setRequestPending(false);
+    }
+  }
 });
 
 const subscribeForm = document.querySelector("#subscribe-form");
